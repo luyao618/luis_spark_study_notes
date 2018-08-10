@@ -124,7 +124,7 @@ private[scheduler] class DAGSchedulerEventProcessLoop(dagScheduler: DAGScheduler
   override def onStop(): Unit = {...}
 ```
 
-![执行图](../pic/spark-DAGSCheduler.png)
+![执行图](../pic/DAGSchdulerJob提交.png)
 
 
 ## 1.2 从Stage到Task
